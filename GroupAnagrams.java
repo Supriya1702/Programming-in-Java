@@ -18,7 +18,7 @@ public class GroupAnagrams {
 		for(int i =0 ;i<n ; i++ )
 			strs[i]=in.next();
 	
-		//assigning or referencing returned linkedlist from groupanagram method to list  in main method
+		// END assigning or referencing returned linkedlist from groupanagram method to list  in main method
 		
 	 List<List<String>> list=	groupanagram(strs);
 	
@@ -29,7 +29,7 @@ public class GroupAnagrams {
 	
 	public static List< List<String>> groupanagram(String[] strs)
 	{
-		//first we'll sort the string 
+		// START first we'll sort the string 
 		//then the sorted string will act as a key for all those strings
 		// that have those characters
 		
