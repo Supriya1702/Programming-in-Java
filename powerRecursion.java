@@ -3,7 +3,11 @@ import java.util.Scanner;
 public class powerRecursion {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Recursion
+		//1. Base case
+	        //2. Smaller problems
+		//3.generalize formula
+		// Also DP is same , use bottom up approach which means move towards the base condition and then start returning from base
 		
 		Scanner in = new Scanner(System.in);
 		int a = in .nextInt();
