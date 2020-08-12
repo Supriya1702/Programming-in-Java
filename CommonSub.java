@@ -3,7 +3,7 @@ import java.util.*;
 public class CommonSub {
 
 
-
+                    // For 26 letters in alphabet series
 		    static int MAX_CHAR = 26; 
 		      
 		    // function to return true if strings have  
