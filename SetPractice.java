@@ -15,6 +15,7 @@ public class SetPractice {
 		set.add("Banana");
 		set.add("Apple");
 		set.add("Mango");
+		set.add("Guava");
 		
 		System.out.println(set);
 
