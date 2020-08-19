@@ -10,6 +10,8 @@ public class BinarySearch {
 		int key = 13;
 		
 		binarysearch(a,key , 0 , a.length-1);
+		
+		int index =bsint(a,key,0,a.length-1);
 //		System.out.println("THe postion where "+key+" lies is "+index);
 
 	}
