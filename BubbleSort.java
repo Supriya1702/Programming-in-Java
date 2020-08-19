@@ -47,6 +47,7 @@ public class BubbleSort {
 	}
 	
 
+	//utility function to display array elements
 	
 	static void printArray(int a[])
 	{
