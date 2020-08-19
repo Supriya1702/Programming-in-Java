@@ -13,7 +13,7 @@ public class BinarySearch {
 //		System.out.println("THe postion where "+key+" lies is "+index);
 
 	}
-	
+	//FOR VOID RETURN
 	static void binarysearch(int a[],int key ,int low ,int high)
 	{
 		
