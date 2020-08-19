@@ -44,7 +44,7 @@ public class BinarySearch {
 			int mid = (low + (high-low))/2;
 		
 		if(a[mid] == key)
-			return mid+1;
+			return mid;
 		
 		else if( key <a[mid])
 			return bsint(a,key,low , mid-1);
