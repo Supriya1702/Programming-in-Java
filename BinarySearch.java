@@ -41,7 +41,7 @@ public class BinarySearch {
 		//int mid = (low +high)/2; this will cause stackoverflow
 		
 		if(low<=high){
-			int mid = (low + (high-low))/2;
+			int mid = low +( (high-low)/2);
 		
 		if(a[mid] == key)
 			return mid;
