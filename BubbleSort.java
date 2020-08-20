@@ -39,6 +39,7 @@ public class BubbleSort {
 			   }
 			//if not even a single swap in the former j loop then array is sorted
 			//so break out the for i loop that has n-1 passes
+			
 			if(swapped == false)
 				break;
 		}
@@ -47,6 +48,7 @@ public class BubbleSort {
 	}
 	
 
+	//utility function to display array elements
 	
 	static void printArray(int a[])
 	{
