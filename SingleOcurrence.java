@@ -10,7 +10,10 @@ public class SingleOcurrence {
 	public static void main(String[] args) {
 		
 		int a[]= {1,1,2,3,3,4,4};
+		
 		int single= Integer.MIN_VALUE;
+	
+		// HashMap containing element as key and its no. of occurences as value
 		
 		Map<Integer,Integer> map = new HashMap<Integer, Integer>();
 		
