@@ -3,6 +3,7 @@ import java.util.*;
 import java.util.Map.Entry;
 
 //Necessary to import java.util.Map.Entry;
+// java.util.* doesn't work standalone
 
 public class SingleOcurrence {
 
