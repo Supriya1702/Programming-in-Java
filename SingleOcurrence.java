@@ -19,10 +19,13 @@ public class SingleOcurrence {
 		
 		for(int  i : a)
 		{
-			if(map.containsKey(i))
-	            map.put(i,map.get(i)+1);
-			else
-				map.put(i, 1);
+			//Null Pointer Exception if try to increment value when not present
+			//SO necessary to add else map.put(i,1) expression when first time element is being found
+			
+		   if(map.containsKey(i))
+	                map.put(i,map.get(i)+1);
+		   else
+		       map.put(i, 1);
 		}
 		
 		//for iterating over hashmap's each entry
