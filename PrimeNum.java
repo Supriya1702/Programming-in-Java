@@ -9,6 +9,8 @@ public class PrimeNum {
 		// that can written as a product of two numbers smaller than itself (even with repetition)
 		// eg 4 can be written as 2 * 2 
 		
+		// ALSO PRIME NUMBER HAS ONLY TWO DIVISORS 1 and NUMBER itself
+		
 		
 		// Agar saare conditions check krne hai toh " if/else if " nahi blki "if / if" lgana
 		
