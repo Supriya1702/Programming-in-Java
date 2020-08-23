@@ -4,7 +4,10 @@ import java.util.*;
 public class ArmstrongNum {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		// An Armstrong Number of order n ( n digits)
+		//is a number that is equal to the sum of its digits to the power n
+		// eg 371 = 3^3 + 7^3 + 1^3
 
 		System.out.println("Enter the number");
 		Scanner in = new Scanner(System.in);
