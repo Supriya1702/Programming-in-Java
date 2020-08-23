@@ -8,7 +8,9 @@ public class StrongNum {
      Scanner in = new Scanner(System.in);
      
      int num = in.nextInt();
-     
+	 
+	 // for calculating the number of digits 
+	 
     int  numDigits= String.valueOf(num).length();
     
      int temp = num  , sum = 0 , digit = Integer.MIN_VALUE  , fact = Integer.MIN_VALUE;
@@ -33,6 +35,8 @@ public class StrongNum {
 
 	}
 	
+	// Recursive Factoial method to rerun factorial of each digit
+
 	static int factorial(int digit)
 	{
 		if( digit == 1)
