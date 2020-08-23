@@ -1,5 +1,6 @@
 package Problems;
 
+//VERY CLEAN CODE
 import java.util.*;
 public class StrongNum {
 
