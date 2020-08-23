@@ -41,7 +41,29 @@ public class PrimeNum {
 		
 		else 
 			System.out.println("Enter a natural number greater than 1");
+		
+		// calling static prime method
+		// System.out.println(prime(num));
 
 	}
+	
+	// ALso if we just check if from i = 2 to ceil of sqrt of num divides the num then it's not prime
+	static boolean prime(int num)
+	{
+		boolean isPrime = true ;
+		
+		for( int i =2 ; i < Math.ceil(Math.sqrt(num)) ; i++)
+		{	if( num % i == 0)
+			 {
+				isPrime = false ;
+		                 break;
+	                  }
+		}
+	
+	
+		return isPrime;
+	
+	}
+
 
 }
