@@ -7,7 +7,7 @@ public class Addwithoutplus {
 
 		// Jisme add hora hai wo sum hai
 		
-		int a = -5 , b =3;
+		int a = 5 , b =3;
 		
 		if(a>0)
 		{
@@ -26,11 +26,38 @@ public class Addwithoutplus {
 				a++;
 				b--;
 			}
+			System.out.println("Sum is " + a);
 		}
 		
-		System.out.println("Sum is " + a);
 		
+		// values change kro as a and b increment and decrement hore hai
+		int c =10 , d=-7;
+		System.out.printf(" Sum using XOR - HALF ADDER LOGIC %d", addxor(c, d ));
+		
+		//upar C ka printf use kia hai
+		
+		 
 		}
+	
+	  static int addxor( int  a , int b)
+	  { int sum = Integer.MIN_VALUE, carry = Integer.MIN_VALUE;
+		  
+		  while(b!=0)
+		  {
+			  sum = a ^ b ;
+			  carry = a&b;
+			  carry =carry<<1;
+			  
+			  a=sum;
+			  b= carry;
+			  
+		  }
+		  
+		  return sum;
+		  
+	  }
+	   
+	
 	}
 	
 	 // For postive
