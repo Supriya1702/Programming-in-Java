@@ -42,7 +42,7 @@ public class StrongNum {
 
 	static int factorial(int digit)
 	{
-		if( digit == 1)
+		if( digit == 0)
 			return 1;
 		else
 			return digit * factorial( digit -1);
