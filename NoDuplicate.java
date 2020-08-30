@@ -34,6 +34,7 @@ int num[] = { 0, 0, 1, 1, 1, 2, 2, 2, 3};
 	
 	static int[] noDuplicate()
 	{
+		// this method returns an array
 		
 		int num[] = { 0, 0, 1, 1, 1, 2, 2, 2, 3};
 		
