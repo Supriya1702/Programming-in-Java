@@ -19,14 +19,16 @@ public class ArrayRotation {
 		
 		int len = arr.length ;
 		
-		int d = 2 ; // rotation by the number of elements
+		System.out.println("Enter the no of rotations");
+		
+		int d = in.nextInt() ; // rotation by the number of elements
 		
 		int arr2[] = new int[len + d] ;
 		
 		for( int i = 0 ; i < len ; i++ )
 		{
 			
-			arr2[i+2] = arr[i] ;
+			arr2[i+d] = arr[i] ;
 			
 		}
 		
