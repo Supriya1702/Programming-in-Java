@@ -12,7 +12,7 @@ public class ArrayRotation {
 		int n = in.nextInt() ;
 		
 		//int arr[] = {1,2,3,4,5};
-		int arr[] = new int[n] ;
+		int arr[] = new int[n] ; 
 		
 		for( int i = 0 ; i< arr.length ; i++)
 		          arr[i] = in.nextInt() ;
@@ -23,7 +23,7 @@ public class ArrayRotation {
 		
 		int d = in.nextInt() ; // rotation by the number of elements
 		
-		int arr2[] = new int[len + d] ;
+		int arr2[] = new int[len + d] ; // creation of new array to store shifted locations
 		
 		for( int i = 0 ; i < len ; i++ )
 		{
