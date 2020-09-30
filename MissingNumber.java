@@ -20,6 +20,10 @@ public class MissingNumber {
 		
 		
 		
+		// code to find a single missing number within a range 1,10 (here)
+		//by subtracting the expected sum of  all consecutive numbers using n(n+1)/2
+		//with the actual sum of the array elements
+			
 			
 	}
 
