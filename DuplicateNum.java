@@ -45,6 +45,27 @@ public class DuplicateNum {
 		}
 		
 		System.out.println("The duplcate elemnt in b array is"+ bDuplicate);
+	
+	
+	
+	
+	//To find multiple occurences of duplicate values using  HashTable or HashMap
+	
+	int c[] = { 1,1,2,2,3,3,4,5,7,8,9,7,8,1,5};
+	
+	
+	HashMap<Integer,Integer> map = new HashMap<>();
+	
+	for(int i = 0 ; i < c.length ; i++)
+	{
+		if(!map.containsKey(c[i]))
+		      map.put(c[i],1);
+		else
+			map.put(c[i], map.get(c[i])+ 1);
 	}
+	
+	for( int i : map.keySet())
+		System.out.println("Num : "+i +"\t"+"Count : "+ map.get(i));
 
+}
 }
