@@ -6,7 +6,7 @@ public class DuplicateNum {
 	public static void main(String[] args) {
 		
 		
-		//finding the duplicate num in O^2 time complexity
+		//finding the duplicate num in O(n^2)time complexity
 		
 		
 		int a[] = {1,2,3,3,4,5} ;
@@ -29,7 +29,7 @@ public class DuplicateNum {
 		
 		
 		
-		//In O(n) using HashSet but O(n) of space complexity
+		//In O(n) time complexity using HashSet but O(n) of space complexity
 		
 		int b[] = { 2,3,5,6,7,8,9,9,10};
 		int bDuplicate= Integer.MAX_VALUE;
@@ -49,7 +49,7 @@ public class DuplicateNum {
 	
 	
 	
-	//To find multiple occurences of duplicate values using  HashTable or HashMap
+	//To find multiple occurences of  values using  HashTable or HashMap
 	
 	int c[] = { 1,1,2,2,3,3,4,5,7,8,9,7,8,1,5};
 	
