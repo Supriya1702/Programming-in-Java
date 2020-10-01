@@ -1,4 +1,5 @@
 package Problems;
+import java.util.*;
 
 public class DuplicateNum {
 
@@ -24,7 +25,26 @@ public class DuplicateNum {
 			}
 		}
 		System.out.println("The duplicate Number is " + duplicateNum);
-
+		
+		
+		
+		
+		//In O(n) using HashSet but O(n) of space complexity
+		
+		int b[] = { 2,3,5,6,7,8,9,9,10};
+		int bDuplicate= Integer.MAX_VALUE;
+		
+		HashSet<Integer>set = new HashSet();
+		
+		for(int i = 0 ; i < b.length ; i++)
+		{
+			if(!set.add(b[i]))
+				bDuplicate=b[i];
+				
+				
+		}
+		
+		System.out.println("The duplcate elemnt in b array is"+ bDuplicate);
 	}
 
 }
