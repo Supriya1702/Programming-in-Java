@@ -4,9 +4,9 @@ import java.util.*;
 public class DuplicateNum {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
-		//finding the duplicate num in O^2
+		
+		//finding the duplicate num in O^2 time complexity
 		
 		
 		int a[] = {1,2,3,3,4,5} ;
