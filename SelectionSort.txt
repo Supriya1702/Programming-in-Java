@@ -1,0 +1,40 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		int a[] ={ 4,2,3,1,7,8};
+		
+		
+		//selectionsort select min indx cmpare it with the rest of the ekents the smallest one gets the mid indx
+		//then swap it with current element
+		
+		
+		
+		for( int i =0 ; i < a.length ; i++)
+		{
+		    int min_idx = i ;
+		    
+		    for( int j = i+1 ; j< a.length -1 ; j++)
+		    {
+		        
+		        if( a[j] < a[min_idx])
+		          min_idx = j ;
+		          
+		          // don't swap here since we need to iterate ovr all elements to receive the smallest
+		      
+		    }
+		    
+		    swap( a, i , min_idx);
+		    
+		}
+		
+		System.out.println(Arrays.toString(a));
+	}
+	
+	static void swap( int arr[],int i , int j)
+	{
+	   int temp = arr[i];
+	   arr[i] = arr[j];
+	   arr[j] = temp ;
+	}
+}
