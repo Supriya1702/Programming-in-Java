@@ -6,8 +6,8 @@ public class SelectionSort
 		
 		
 		//selectionsort 
-//1.select min indx compare it with the rest of the elements 
- the smallest one gets the mid indx
+                //1.select min indx compare it with the rest of the elements 
+                //the smallest one gets the mid indx
 		//then swap it with current element
 		
 		
