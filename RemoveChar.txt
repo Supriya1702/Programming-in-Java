@@ -1,0 +1,25 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		
+	  ArrayList<Character> list = new ArrayList();
+	  
+	  String s = "Supriya" ;
+	  
+	  char unwantedchar = 'y';
+	  
+	  for( int i =0 ; i < s.length() ; i++)
+	  {
+	      
+	     if( !(s.charAt(i) == unwantedchar) ) 
+	            list.add(s.charAt(i));
+	      
+	      
+	      
+	  }
+	  
+	  System.out.println(list);
+	  
+	}
+}
