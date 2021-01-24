@@ -37,5 +37,5 @@ public class ArmstrongNum {
 			System.out.println("Not an Armstrong Number");
 		
 	}
-
+//end
 }
