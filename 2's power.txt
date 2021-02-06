@@ -1,0 +1,25 @@
+class TwoPower
+{
+
+public static void main(String args[])
+{
+
+
+int num = 4;
+
+if( (num & -num) == num )
+   System.out.println( num + " is 2's power");
+else
+   System.out.println(" 2 ki power nahi hai");
+
+}
+}
+
+
+
+}
+
+
+
+
+}
