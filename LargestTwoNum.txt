@@ -1,0 +1,29 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+	
+	// top two laregest elements in an Array
+	
+	int a[]={1,2,3,7,8,9};
+	int l = 0 ;
+	int sl =0;
+	
+	for( int i = 0 ; i< a.length ; i++)
+	{
+	   if( a[i] > l)
+	    {
+	        sl=l; 
+	      l = a[i];
+	     
+	    
+	    }
+	    
+	}
+	System.out.println(l + "/"+sl);
+	
+	
+	
+	}
+}
