@@ -1,4 +1,5 @@
 //static initialization block ..it executes as soon as the class is loaded i.e. it runs before main 
+// regardless if the static block is presesnt after or before main.
 // if more than one block present then it follows the order in which they are present
 public class Demo
 {
