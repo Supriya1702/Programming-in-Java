@@ -1,0 +1,20 @@
+//One duplicate value in element in array
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+	
+	int a[] = { 3,2,4,1,5,2};
+	
+	HashSet<Integer> set = new HashSet();
+	
+	for( int i = 0 ; i<a.length ; i++)
+	{
+	    if( !(set.add(a[i])))
+	        System.out.println(a[i]);
+	}
+	
+	}
+}
