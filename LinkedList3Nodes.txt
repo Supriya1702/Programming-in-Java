@@ -1,0 +1,61 @@
+// Program for creating 3 node using Linked List in C language
+
+#include<stdio.h>
+#inlcude<stlib> // for malloc function
+
+struct Node
+{
+
+int data ;  // data holding part
+
+struct Node* next; // self referencing Node i,e a point to its self fro pointing to the next node
+
+};
+
+
+void printList( struct Node* head)
+{
+
+struct Node* ptr = head; // using a different ptr to referene head since don't wanna make changes in the original head pointer
+
+while(  ptr !=NULL)
+{
+  printf("%d",ptr->data);
+  ptr = ptr->next;
+
+}
+
+}
+
+
+}
+void main()
+{
+
+struct Node* head =(struct Node*) malloc(sizeof(struct Node)) ; // alllocationg space for node and then typcasting it to struct Node* type
+struct Node* second = (struct Node*) malloc(sizeof(struct Node));
+struct Node* third =(struct Node*)malloc(sizeof(struct Node));
+
+
+
+printf("enter head node data");
+int datahead;
+scanf("%d",&datahead);
+head->data = datahead;
+
+head->next = second;
+second->data= 2;
+
+second ->next = third;
+third->data = 3;
+
+third->next= NULL;
+
+
+
+printList(head);
+
+
+
+
+}
