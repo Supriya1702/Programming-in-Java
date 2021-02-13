@@ -28,6 +28,65 @@ while(  ptr !=NULL)
 }
 
 
+void addFirst(struct Node* head, int data)
+{
+
+struct Node* new_node = (struct Node*)malloc(sizeof(struct Node));
+new_node->data;
+new_node->next = head;
+head= new_node;
+
+
+}
+
+void addAfterBefore(struct Node* head , int data, struct Node * node)
+{
+//insert after node passed in the method
+
+struct Node* new_node = (struct Node*) malloc(sizeof(struct Node));
+struct Node* ptr = head;
+struct Node* prev ;
+
+new_node->data = data;
+
+while( ptr!= node)
+{
+prev =ptr;
+ptr=ptr->next;
+}
+
+new_node= ptr;
+new_node->next=ptr->next
+prev->next=new_node;
+
+
+
+
+
+
+
+}
+
+void addLast( struct Node* head, int data)
+{
+
+struct Node* new_node = (struct Node*)malloc(sizeof(struct Node));
+struct Node* ptr = head;
+struct Node* prev;
+
+while( ptr!=NULL)
+{
+  prev=ptr;
+  ptr=ptr->next;
+
+}
+
+prev->next=new_node;
+new_node= data;
+
+new_node->next= NULL;
+
+
 }
 void main()
 {
