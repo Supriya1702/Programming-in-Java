@@ -1,0 +1,37 @@
+import java.util.*;
+public class Main{
+    
+    
+    public static void main(String args[])
+    {
+       String s = "AAA";
+       
+        
+        char arr[]= s.toCharArray();
+        
+        
+        for(int i =0 ; i< arr.length/2 ; i++)
+        {
+            int j = arr.length - 1 - i ;
+            
+            char ch = arr[i];
+            arr[i]= arr[j];
+            arr[j] = ch ;
+            
+            
+            
+        }
+        
+        System.out.println(Arrays.toString(arr));
+        String sb = new String(arr);
+        
+        if( sb.equals(s) )
+          System.out.println(sb);
+        
+        
+        
+        
+    }
+    
+    
+}
