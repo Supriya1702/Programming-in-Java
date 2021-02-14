@@ -1,0 +1,21 @@
+public class StringRot
+{
+public static void main(String args[])
+{
+
+String str1 = "abcd";
+String str2 = "bcda";
+
+String concatenated = str1+str2;
+
+
+if( concatenated.contains(str2))
+    System.out.println("Yes, str2 is a rotation of str1");
+
+}
+
+
+
+
+}
+        
